@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+  }
+  
+  .header {
+    background-color: white;
+    padding: 25px;
+    text-indent: 25%;
+    box-shadow: 10px 10px 5px darkslategrey;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  
+  .header .highlight {
+    color: #32a852;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex; /* The Flex Items are header and body. That is why flex is defined on their wrapper */
+    flex-direction: column; /*Flex column for them to show up on top of each other */
+    margin: 90px auto; /* Center content horizontally */
+    padding: 20px; /*Prevents the header part from covering the body weirdly*/
+    max-width: 700px; /* Defines the width, combined with margin specifications to center horizontally*/
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative; /* Used with absolute on the header part for positioning*/
+    box-shadow: 10px 10px 5px
+     darkgray;
+  }
+  
+  .content-header {
+    background-color: #ffc107;
+    padding: 15px 25px;
+    position: absolute; /*With relate on the container part for positioning*/
+    top: 10px;
+    left: -10px;
+    
+  }
+  
+  .content-header h2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  
+  .content-body p {
+    line-height: 1.6;
+    text-align: left;
+    padding: 10px;
+  }
+
+  #text {
+    margin-top: 8%; /*Space between the content heading and body*/
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .header {
+        text-indent: 0%;
+    }
+    .content {
+        width: 100%;
+        max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+        text-indent: 0%;
+    }
+    .content {
+        width: 100%
+    }
+    #text {
+        margin-top: 12%
+  }
+}

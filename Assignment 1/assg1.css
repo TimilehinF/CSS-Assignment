@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+    display: flex;
+  }
+  .container {
+    position: relative;
+    width: 400px; 
+    align-items: center;
+    margin: 17% auto;
+  }
+  .heading {
+    background-color: #ff0099; 
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    width: 80%; 
+    border-radius: 5px;
+  }
+  .card {
+    background-color: white;
+    border-radius: 8px; 
+    height: 200px;
+    width: 400px;
+    padding: 50px;
+    font-size: large;
+  }
+  

@@ -1,0 +1,507 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 40px 20px;
+}
+nav p {
+    font-size: 32px;
+    color:  #007bff;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.nav-links li:hover {
+    background-color: #f0f0f0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.auth-buttons .login {
+    color:  #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-buttons .signup {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.optimize {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.optimize-content h1 {
+    font-size: 32px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+}
+
+.highlight {
+    color: #007bff;
+    text-decoration: underline dotted;
+}
+
+.optimize-content p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5rem;
+}
+
+.sign-up {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.learn-more {
+    margin-left: 50px;
+    font-size: 16px;
+    color: #007bff;
+    border: none;
+}
+
+.seamlessly-box {
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 5px 15px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seamlessly-content {
+    text-align: center;
+}
+
+.locks-box {
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 50px;
+}
+
+.seamlessly-content p {
+    margin-top: 14px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5rem;
+}
+
+.one-stop-box { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.one-stop-content {
+    margin: 100px;
+    text-align: left;
+    width: 30%;
+}
+.one-stop {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.highlight-poss {
+    color: #007bff;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    width: 70%;
+    padding: 0px 50px;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats h2 {
+    font-size: 28px;
+    color: #000;
+}
+
+.stats p {
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+.why-choose-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.why-choose {
+    padding: 40px 20px;
+    text-align: left;
+    max-width: 40%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+.why-choose h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.feature {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.feature p {
+    line-height: 1.5rem;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-page {
+    margin: 70px;
+}
+
+.pricing-section h1 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.pricing-p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding: 15px;
+    line-height: 1.5rem;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pricing-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-category {
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.pricing-class {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pricing-section ul {
+    list-style-type: none;
+    padding: 30px;
+    text-align: left;
+    display: block;
+}
+
+.pricing-section ul>li {
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+}
+
+.professional {
+    background-color: #0f2548;
+    transform: scale(1.1);
+}
+
+.professional ul>li {
+    color: #ffffff;
+}
+
+.pricing-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.custom-pricing {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.select-pricing {
+    background: #007bff;
+    color: white;
+}
+
+.domain-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.url-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 300px;
+}
+
+.input-field, .alias-input, .domain-select {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px; 
+}
+[placeholder] {
+    color: #007bff;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.domain-select {
+    width: 50%;
+}
+
+.alias-input {
+    width: 50%;
+}
+
+.trim-btn {
+    width: 100%;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.trim-btn:hover {
+    background: #0056b3;
+}
+
+.terms {
+    font-size: 12px;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.faq-body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.faq-container {
+    width: 70%;
+    padding: 40px;
+    margin: 100px;
+}
+.faq-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 30px;
+}
+.faq-question {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-question:hover {
+    color: #007bff;
+}
+.faq-answer {
+    padding: 10px 0;
+    font-size: 16px;
+}
+.toggle-icon {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.revolution {
+    width: 100%;
+    height: 250px;
+    background: #0f2548;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.revolution h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.revolution-btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.revolution-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.footer-container {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px 50px;
+}
+.footer-left {
+    display: flex;
+    width: 20%;
+}
+.footer-left p{
+    font-size: 32px;
+    text-align: left;
+}
+.footer-right {
+    display: flex;
+    width: 80%;
+}
+.footer-column {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    text-align: left;
+    gap: 15px;
+}
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+    list-style: none;
+}
+.footer-bottom {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+}
